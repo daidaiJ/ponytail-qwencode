@@ -172,7 +172,7 @@ The Gemini adapter intentionally does not ship a root `hooks/hooks.json`: Gemini
 ### Qwen Code
 
 ```bash
-qwen extensions install https://github.com/DietrichGebert/ponytail
+qwen extensions install https://github.com/daidaiJ/ponytail-qwencode
 ```
 
 Loads the `qwen-extension.json` manifest: injects `AGENTS.md` as always-on context, registers `/ponytail` commands and subagents, and exposes the ponytail skills. Restart Qwen Code after install.
